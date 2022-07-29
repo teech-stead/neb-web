@@ -591,11 +591,12 @@ header {
     font-weight: 700;
 }
 .beneImg1{
-    transform: translateY(-30px);
+    transform: translateY(-160px);
 }
 .beneterms{
     border-radius: 30px;
     background-color: #F5F5F5;
+    transform: translateY(-200px);
 }
 .benetextarea{
     padding-left: 25px;
@@ -615,16 +616,16 @@ header {
   padding-left: 5px;
 }
 
-.otherbenefsec{
+/* .otherbenefsec{
     padding-top: 50px;
-}
+} */
 
 .othHD{
     font-size: 50px;
     font-weight: 700;
     color: var(--orng);
     text-align: center;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .card-logo {
@@ -632,6 +633,11 @@ header {
     width: 100px;
     border-radius: 100%;
     background-color: #fff;
+    position: absolute;
+    top: 58px;
+    right: 36%;
+    text-align: center;
+}
 
 /* !!!!!=======other-pages======!!!!!! */
 
@@ -1094,6 +1100,41 @@ ul {
     top: 20%;
 }
 
+
+/* Benefits cards and card */
+.benefints-cards{
+    padding-top: 80px;
+    
+}
+.cards-heading{
+    font-size: 18px;
+    font-weight: 600px;
+}
+.card-para2{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #222222;
+}
+.cards-sction {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card-logo img { position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%);}
+
+
+
+/*programmes section */
+.-top-2500 {
+    top: 72px;
+    padding-bottom: 50px;
+}
+.pg-bg-c-one{background-image: url(../images/pg-card-1.png)}
+.pg-bg-c-two{background-image: url(../images/pg-card-2.png)}
+.pg-bg-c-three{background-image: url(../images/pg-card-3.png);}
+.pg-bg-c-four{background-image: url(../images/pg-card-4.png);}
+.question-section{ padding-top: 80px;}
+
+
 /* Responsive */
 
 /* System */
@@ -1209,7 +1250,26 @@ ul {
     .qus-para {
         font-size: 16px;
 
-
+    }
+    /* Benefits cards section */
+    .benefints-cards { padding-top: 37px; }
+    .card-text-body { height: 242px; display: flex; }
+    .card-logo {
+        height: 90px;
+        width: 90px;
+        top: 32px;
+        right: 33%;
+    }
+    .cards-heading {
+        font-size: 16px;
+    }
+    .card-para {
+        font-size: 13px;
+    }
+    .cards-text-body {
+        height: 169px;
+        display: flex;
+    }
 }
 /* !!==tablate==!! */
 
@@ -1254,7 +1314,7 @@ ul {
         padding: 50px 0;
     }
     .j-c-m{
-justify-content: center;
+     justify-content: center;
 
     }
 }
@@ -1263,6 +1323,7 @@ justify-content: center;
 
 /* mobile */
 @media (max-width:767px) {
+
     .textArea {
         text-align: start;
         padding-top: 30px;
@@ -1396,7 +1457,11 @@ justify-content: center;
     .cardes{
         margin-top: 20px;
     }
-
+    /* benefites cards */
+    .btn1 {
+        width: 149px;
+        font-size: 13px;
+    }
 
 
 /* !!!!====other-pages===!!!! */
@@ -1471,7 +1536,4 @@ html {
     min-height: 40px;
    height: auto;
 }
-
-
-
 }
