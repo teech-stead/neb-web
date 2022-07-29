@@ -401,14 +401,14 @@ header{
 }
 
 .footer {
-    background-image: url(../images/footImg1png.png);
+    background-image: url(../Images/footImg1png.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 30px;
 }
 .footer-inner {
-    background-image: url('../images/footer-bottom.png');
+    background-image: url(../Images/Rectangle\ 25.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -476,7 +476,154 @@ header{
     align-items: center;
 }
 
+/*
+ card benifit section
+ */
+.mainBF{
+    width: 100%;
+    height: auto;
+    background-image: url(../Images/neboMemberBc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.beneftHD{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: start;
+}
+.checkpara2{
+    font-size: 13px;
+    padding-top: 22px;
+}
+.benepara{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 300 !important;
+    text-align: start;
+}
+.weblinkpara a{
+    text-decoration: none;
+    color: var(--orng);
+}
+.weblinkpara a:hover{
+    text-decoration: none;
+    color: var(--orng);
+    font-weight: 700;
+}
+.beneImg1{
+    transform: translateY(-30px);
+}
+.beneterms{
+    border-radius: 30px;
+    background-color: #F5F5F5;
+}
+.benetextarea{
+    padding-left: 25px;
+}
+.beneftHD2{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 25px;
+    text-align: start;
+}
 
+.benelist ul{
+    padding: 20px;
+}
+.dot{
+  padding-left: 5px;
+}
+
+.otherbenefsec{
+    padding-top: 50px;
+}
+
+.othHD{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--orng);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.card-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-wrap {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    border-radius: 20px !important;
+}
+.card-text-body {
+    padding: 20px;
+    background-color: #fff;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-wrap {
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50px !important;
+}
+.card-heading{
+    font-size: 18px;
+    font-weight: 500px;
+    color: var(--orng);
+}
+.card-para{
+    font-size: 16px;
+    color: #222222;
+}
+.card-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+    color: var(--orng);
+}
+.card-link:hover{
+    font-size: 17px;
+    font-weight: 900px !important;
+    color: var(--orng);
+}
+.card-sction{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-button-section{
+    text-align: center;
+}
+.qus-para{
+    font-size: 20px;
+}
+.card-heading-section{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.card-para-section{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.btn-secgtion{
+    padding-bottom: 200px !important;
+}
 
 
 /* Responsive */
@@ -551,7 +698,28 @@ header{
     .ftsociallink {
         gap: 18px;
     }
-    
+    /* Crad Beenefit section */
+    .benepara {
+        font-size: 18px;
+    }
+    .otherbenefsec {
+        padding-top: 0px;
+    }
+    .card-sction {
+        padding-top: 19px; padding-bottom: 24px;
+    }
+    .othHD {
+        font-size: 45px; padding-top: 29px;
+    }
+    .card-para-section {
+        padding-top: 9px; padding-bottom: 0px;
+    }
+    .btn-secgtion {
+        padding-bottom: 15px !important;
+    }
+    .qus-para {
+        font-size: 16px;
+    }
 }
 
 
@@ -647,4 +815,24 @@ header{
         text-align: start;
         margin-top: 10px;
     }
+    .bene-heading{
+        font-size: 19px;
+    }
+    .benepara {
+        font-size: 12px;
+    }
+    .othHD {
+        font-size: 31px;
+        padding-top: 2px;
+    }
+    .card-text-body {
+        height: 170px;
+    }
+    .qus-para {
+        font-size: 10px;
+    }
+    .cardes{
+        margin-top: 20px;
+    }
+
 }
