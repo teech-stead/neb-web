@@ -5,5 +5,5 @@ $('.slider').slick({
     infinite: true,
     speed: 200,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: false
   });
