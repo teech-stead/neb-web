@@ -827,6 +827,8 @@ ul {
 }
 .qus-para{
     font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 70px;
 }
 .card-heading-section{
     text-align: center;
@@ -1100,7 +1102,9 @@ ul {
     top: 20%;
 }
 
-
+.card-para-section {
+    padding-top: 39px; padding-bottom: 0px;
+}
 /* Benefits cards and card */
 .benefints-cards{
     padding-top: 80px;
@@ -1125,15 +1129,18 @@ ul {
 
 /*programmes section */
 .-top-2500 {
-    top: 72px;
+    top: 83px;
     padding-bottom: 50px;
 }
 .pg-bg-c-one{background-image: url(../images/pg-card-1.png)}
 .pg-bg-c-two{background-image: url(../images/pg-card-2.png)}
 .pg-bg-c-three{background-image: url(../images/pg-card-3.png);}
 .pg-bg-c-four{background-image: url(../images/pg-card-4.png);}
-.question-section{ padding-top: 80px;}
-
+.question-section{ padding-top: 163px;}
+.pg-para-warp{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 /* Responsive */
 
