@@ -13,9 +13,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 html {
     overflow-x: hidden;
@@ -24,7 +22,9 @@ html {
 .container {
     max-width: 1527px !important;
 }
-
+.ml-10{
+    margin-left: 10px;
+}
 
 /* my-css */
 
@@ -740,10 +740,10 @@ header {
     width: 100px;
     border-radius: 100%;
     background-color: #fff;
-    position: absolute;
-    top: 58px;
-    right: 36%;
-    text-align: center;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50% , -50%);
 }
 
 /* !!!!!=======other-pages======!!!!!! */
@@ -841,7 +841,6 @@ ul {
 
 .text-rr {
     padding-right: 50px;
-    padding-top: 60px;
 }
 
 .pb-30 {
@@ -884,26 +883,24 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.card-img-wrap {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+.card-img-wrap{
     position: relative;
-    border-radius: 20px !important;
+}
+.card-img-wrap img {
+    border-radius: 10px 10px 0 0;
 }
 .card-text-body {
+    border-radius: 0 0 10px 10px;
     padding: 20px;
     background-color: #fff;
-    height: 270px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    border-radius: 10px;
+
 }
 
 .card-wrap {
     height: 100%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 50px !important;
+    box-shadow: rgb(152 152 156 / 35%) 0px 10px 20px 0px;
+    border-radius: 10px;
 }
 .card-heading{
     font-size: 18px;
@@ -913,6 +910,8 @@ ul {
 .card-para{
     font-size: 16px;
     color: #222222;
+    min-height: 100px;
+    line-height: 1.5;
 }
 .card-link{
     text-decoration: none;
@@ -955,6 +954,10 @@ ul {
 .b-radius{
 border-radius: 30px;
 }
+.p-20{
+    padding: 20px;
+}
+
 
 
 .ttt-hd {
@@ -1008,15 +1011,12 @@ border-radius: 30px;
 .bg-c-three {
     background-image: url(../images/card-mem-3.png);
 }
-.bg-c-four{
-    background-image: url(../images/part-io.png);
-}
-.bg-c-five{
-    background-image: url(../images/faq-io.png);
-}
 
-.text-ee {
-    padding: 30px;
+.text-xxx{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
 }
 
 .pt-30 {
@@ -1025,6 +1025,9 @@ border-radius: 30px;
 
 .mt-100 {
     margin-top: 100px;
+}
+.mb-100{
+    margin-bottom: 100px;
 }
 
 .sec-ee {
@@ -1217,7 +1220,9 @@ border-radius: 30px;
     right: 2%;
     top: 20%;
 }
-
+.my-100{
+    margin: 100px 0;
+}
 
 .font-king{
     font-family: 'King Bird Regular';
@@ -1242,6 +1247,23 @@ border-radius: 30px;
 .bg-dark-gray-io{
     background-color: #E0E0E0;
 }
+.fff-icon{
+   font-size: 20px;
+    color: #F16E33;
+}
+.accor-io{
+    box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.12);
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.accor-card{
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+.card-bor-top{
+    border-radius: 20px 20px 0 0;
+}
 .fff-span{
     font-weight: 500;
 font-size: 1.8rem;
@@ -1265,8 +1287,16 @@ color: #000000;
 .mr-14{
     margin-right: 14px;
 }
-
-
+.-mt-135{
+    margin-top: -135px;
+}
+.ss-hd{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.d-none-io{
+    display: none;
+}
 
 
 
@@ -1291,7 +1321,9 @@ color: #000000;
 }
 .card-logo img { position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%);}
 
-
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /*programmes section */
 .-top-2500 {
@@ -1424,12 +1456,10 @@ color: #000000;
     }
     /* Benefits cards section */
     .benefints-cards { padding-top: 37px; }
-    .card-text-body { height: 242px; display: flex; }
+   
     .card-logo {
         height: 90px;
         width: 90px;
-        top: 32px;
-        right: 33%;
     }
     .cards-heading {
         font-size: 16px;
@@ -1461,10 +1491,8 @@ color: #000000;
     .primary-nav-list li a {
         font-size: 20px;
     }
-}
-/* !!==tablate==!! */
 
-@media screen and (min-width:768px) and (max-width:991px) {
+
     html {
         font-size: 8px !important;
     }
@@ -1514,19 +1542,24 @@ color: #000000;
     .mt-s-100{
         margin-top: 100px;
     }
-    .mt-m-130{
-        margin-top: 130px;
+    .mt-m-100{
+        margin-top: 100px;
     }
     .box-ggg{
         width: 381px;
     }
+    .mb-m-30{
+        margin-bottom: 30px;
+    }
 }
-
-
+/* !!==tablate==!! */
 
 /* mobile */
 @media (max-width:767px) {
 
+    .mb-s-15{
+        margin-bottom: 15px;
+    }
     .textArea {
         text-align: start;
         padding-top: 30px;
@@ -1648,9 +1681,7 @@ color: #000000;
         font-size: 31px;
         padding-top: 2px;
     }
-    .card-text-body {
-        height: 170px;
-    }
+   
     .qus-para {
         font-size: 10px;
     }
@@ -1683,10 +1714,6 @@ html {
 }
 
 .pad-ool {
-    padding: 0;
-}
-
-.text-rr {
     padding: 0;
 }
 
@@ -1781,7 +1808,6 @@ html {
 }
 
 
-
 @media (max-width: 1527px) {
  .container {
     max-width: 90% !important ;
@@ -1795,5 +1821,8 @@ html {
  .footer {
     background-size: cover;
     background-position: top center;
+ }
+ .top-0-io{
+    top: 0;
  }
 }
