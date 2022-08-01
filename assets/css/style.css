@@ -1,3 +1,11 @@
+@import url('../king-bird-cufonfonts-webfont/King\ Bird.woff');
+
+@font-face {
+    font-family: 'King Bird Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('King Bird Regular'), url('King Bird.woff') format('woff');
+    }
 * {
     margin: 0;
     padding: 0;
@@ -278,6 +286,7 @@ header {
     color: #000;
     text-decoration: none;
 }
+
 
 /* Main banner section2 or 3 */
 
@@ -940,6 +949,13 @@ ul {
     padding-bottom: 200px !important;
 
 }
+.-top-100{
+    top: -100px;
+}
+.b-radius{
+border-radius: 30px;
+}
+
 
 .ttt-hd {
     font-style: normal;
@@ -992,6 +1008,12 @@ ul {
 .bg-c-three {
     background-image: url(../images/card-mem-3.png);
 }
+.bg-c-four{
+    background-image: url(../images/part-io.png);
+}
+.bg-c-five{
+    background-image: url(../images/faq-io.png);
+}
 
 .text-ee {
     padding: 30px;
@@ -1006,11 +1028,9 @@ ul {
 }
 
 .sec-ee {
-    background-image: url(../images/mem-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: auto;
-
+    background-image: url(../images/bg-ww.png), url(../images/bg-xx.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat ; 
 }
 
 .item-e {
@@ -1199,6 +1219,58 @@ ul {
 }
 
 
+.font-king{
+    font-family: 'King Bird Regular';
+}
+.text-mm li{
+    list-style: none;
+}
+.text-dd{
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 40px 85px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+.www-hd{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bg-dark-gray-io{
+    background-color: #E0E0E0;
+}
+.fff-span{
+    font-weight: 500;
+font-size: 1.8rem;
+color: #666666;
+}
+.text-ppp{
+    padding: 28px;
+    border-top: 1px solid #DDDDDD;
+    
+}
+.box-ggg{
+    border: 1px solid #DDDDDD;
+border-radius: 20px;
+width: 381px;
+}
+.bbb-hd{
+    font-weight: 500;
+font-size: 2.8rem;
+color: #000000;
+}
+.mr-14{
+    margin-right: 14px;
+}
+
+
+
+
+
+
 /* Benefits cards and card */
 .benefints-cards{
     padding-top: 80px;
@@ -1231,6 +1303,7 @@ ul {
 .pg-bg-c-three{background-image: url(../images/pg-card-3.png);}
 .pg-bg-c-four{background-image: url(../images/pg-card-4.png);}
 .question-section{ padding-top: 80px;}
+
 
 
 /* Responsive */
@@ -1435,6 +1508,18 @@ ul {
      justify-content: center;
 
     }
+    .mt-s-50{
+        margin-top: 50px;
+    }
+    .mt-s-100{
+        margin-top: 100px;
+    }
+    .mt-m-130{
+        margin-top: 130px;
+    }
+    .box-ggg{
+        width: 381px;
+    }
 }
 
 
@@ -1469,7 +1554,7 @@ ul {
     }
 
     .btn1 {
-        width: 125px;
+        padding: 13px 23px;
         font-size: 13px;
     }
 
@@ -1584,9 +1669,17 @@ ul {
 html {
     font-size: 7px !important;
 }
-
+.p-s-40{
+    padding: 40px;
+}
+.mt-s-50{
+    margin-top: 50px;
+}
 .pad-lo {
     padding: 0;
+}
+.box-ggg{
+    width: auto;
 }
 
 .pad-ool {
@@ -1634,6 +1727,9 @@ html {
 .top-s-0 {
     top: 0;
 }
+.top-s-35{
+    top: 35px;
+}
 
 .col-revers {
     flex-direction: column-reverse;
@@ -1650,6 +1746,9 @@ html {
 .input-ff{
     min-height: 40px;
    height: auto;
+}
+.py-s-30{
+    padding: 30px 0;
 }
 
 
