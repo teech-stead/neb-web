@@ -17,6 +17,83 @@ html {
     max-width: 1527px !important;
 }
 
+
+/* my-css */
+
+.hero-banner {
+    padding-top: 250px;
+    background-image: url(../images/hero-banner.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.section {
+    padding-top: 86px;
+}
+.sec-wrap {
+    background-color: #FEF7F4;
+}
+.card-sec {
+    padding: 120px 0;
+}
+.card-wraper {
+    background-color: #fff;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.slider .slick-dots {
+    height: 20px;
+    bottom: 220px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+.mt-35 {
+    margin-top: 35px;
+}
+.slider .slick-dots li {
+    width: 5px;
+}
+.slider .slick-dots li button:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+.slider .slick-dots li.slick-active button:before {
+    opacity: 1;
+    transform: scale(1.3);
+}
+.slider .slick-dots li button {
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.pakages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.pack-sec {
+    padding: 110px 0;
+    background-image: url('../images/corner-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* my-css */
+
+
+
+
+
+
 :root {
     --orng: #F16E33;
     --yell: #FCD205;
@@ -30,14 +107,22 @@ html {
 
 /* header sec */
 header {
-    width: 100%;
+    /* width: 100%;
     height: 95px;
     border-bottom: .50px solid rgb(226, 226, 226) !important;
     position: absolute;
     top: 0;
-    background: #fffffffa;
+    background: #fffffffa; */
 }
-
+.header {
+    border-bottom: .50px solid rgb(226, 226, 226);
+    padding: 10px 0;
+}
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 .containt {
     width: 100%;
     display: flex;
@@ -52,14 +137,27 @@ header {
     align-items: center;
     padding-top: 5px;
 }
-
+.primary-nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+.primary-nav {
+    width: 100%;
+}
+.primary-nav-list a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding: 0 20px;
+}
 .navMenu {
     width: 50%;
 }
 
-.searchBar {
-    width: 25%;
-}
+
 
 .menu {
     display: flex;
@@ -108,6 +206,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
 }
 
 .icons {
@@ -115,7 +214,6 @@ header {
     gap: 30px;
     justify-content: center;
     align-items: center;
-    width: 300px;
 }
 
 .serch {
@@ -163,19 +261,22 @@ header {
 .banPara {
     font-size: 28px;
     /* font-weight: 700; */
+    line-height: 1.5;
 }
 
 .banImg {
     padding-top: 40px;
 }
 
-.btn1 {
+.btn1, .btn1:hover {
     padding: 15px 27px;
     border: none !important;
     border-radius: 30px;
     background: var(--yell);
     font-size: 17px;
     font-weight: 700;
+    color: #000;
+    text-decoration: none;
 }
 
 /* Main banner section2 or 3 */
@@ -192,16 +293,18 @@ header {
     font-size: 50px;
     font-weight: 700;
     color: var(--orng);
+    margin-bottom: 35px;
 }
 
 .sabPara {
     font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 1.5;
     /* font-weight: 700; */
 }
 
 .textArea3 {
     text-align: start;
-    margin-top: 100px;
 }
 
 
@@ -211,29 +314,24 @@ header {
 }
 
 /* slider */
-.slick-dots {
-    top: 305px;
-}
 
 .slider {
-    height: 100%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* height: 100%; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
-.cardSEc {
-    margin-top: 30px;
-}
+
 
 .cardText {
-    padding-left: 10px;
-    font-weight: 700;
+    /* padding-left: 10px;
+    font-weight: 700; */
+    padding: 15px 20px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.cardText {
-    margin-top: 20px;
-    margin-bottom: 50px;
-
-}
 
 .locImg {
     display: flex;
@@ -251,14 +349,12 @@ header {
 }
 
 .DisPric {
-    gap: 10px;
     font-size: 16px;
     font-weight: 700 !important;
+    margin-bottom: 0;
 }
 
-.priceSec {
-    margin-top: 60px;
-}
+
 
 .btnView {
     margin-top: 30px;
@@ -290,11 +386,13 @@ header {
 .priceTex {
     font-size: 14px;
     color: #A4A4A4;
+    margin-bottom: 0;
 }
 
 .DisPric span {
     font-size: 12px;
     font-weight: 500 !important;
+    margin-right: 5px;
 }
 
 /* Main banner section5 */
@@ -304,7 +402,7 @@ header {
 
 .banHedMe {
     font-size: 50px;
-    font-weight: 1000;
+    font-weight: 700;
     color: var(--orng);
 }
 
@@ -313,11 +411,11 @@ header {
 }
 
 .pakages {
-    height: 650px;
+    min-height: 610px;
     width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 35px 35px 50px;
     transition: all 0.3s;
 
 }
@@ -349,8 +447,8 @@ header {
 }
 
 .PakageLine {
-    width: 250px !important;
     margin: 0 auto;
+    max-width: 92%;
 }
 
 .tremHD {
@@ -365,9 +463,8 @@ header {
 
 .tremCheck {
     display: flex;
-    justify-content: start;
-    align-items: center;
     gap: 10px;
+    margin-top: 15px;
 }
 
 .checkimg {
@@ -385,18 +482,15 @@ header {
 
 .checkpara {
     font-size: 14px;
-    padding-top: 55px;
+    padding-top: 24px;
 }
 
 .checkpara2 {
     font-size: 13px;
-    padding-top: 22px;
 }
 
 .pakageBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ text-align: center;
 }
 
 .SignUpbtn {
@@ -416,17 +510,22 @@ header {
 
 .checkpara2-3 {
     font-size: 13px;
-    padding-top: 40px;
 }
 
 .pakages:hover {
     background: var(--orng);
     color: #fcfcfa;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
 }
 
 .pakages:hover .pakagHD {
     color: #fcfcfa;
+}
+.pakages:hover .textPakag {
+    color: #fcfcfa;
+}
+.pakages:hover .PakageLine {
+    border-color: #fcfcfa;
 }
 
 .checkpara3-3 {
@@ -467,18 +566,18 @@ header {
 }
 
 .footer {
-    background-image: url(../Images/footImg1png.png);
+    background-image: url(../images/footImg1png.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30px;
+    background-position: top center;
 }
 
 .footer-inner {
-    background-image: url(../Images/Rectangle\ 25.png);
+    background-image: url(../images/footer-bottom.png);
     width: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 58%;
     padding: 110px 0 80px;
     background-position: bottom;
 
@@ -573,7 +672,6 @@ header {
 }
 .checkpara2{
     font-size: 13px;
-    padding-top: 22px;
 }
 .benepara{
     font-size: 20px;
@@ -1270,6 +1368,26 @@ ul {
         height: 169px;
         display: flex;
     }
+    .primary-nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        background-color: #fff;
+        transform: translateX(100%);
+    }
+    .primary-nav-list {
+        display: block;
+        padding: 20px 10px;
+    }
+    .primary-nav-list li {
+        margin-bottom: 20px;
+    }
+    .primary-nav-list li a {
+        font-size: 20px;
+    }
 }
 /* !!==tablate==!! */
 
@@ -1397,9 +1515,6 @@ ul {
         padding-top: 29px;
     }
 
-    .slick-dots {
-        top: 220px;
-    }
 
     .footHD {
         font-size: 20px;
@@ -1536,4 +1651,50 @@ html {
     min-height: 40px;
    height: auto;
 }
+
+
+/* my css */
+.pack-sec {
+    background-size: cover;
+}
+.hero-banner {
+    padding-top: 60px;
+} 
+.section {
+    padding-top: 50px;
+}
+.card-sec {
+    padding: 60px 0 ;
+}
+.pakages:hover {
+    transform: translateY(0);
+}
+.pakages {
+    min-height: 550px;
+    z-index: 5;
+    position: relative;
+}
+.primary-nav-list a {
+   color: var(--orng);
+}
+/* my css */
+
+}
+
+
+
+@media (max-width: 1527px) {
+ .container {
+    max-width: 90% !important ;
+ }
+ .banHed {
+    font-size: calc(20px + 3vw);
+ }
+ .sabHed,.banHedMe,.footHD {
+    font-size: calc(17px + 1.6vw);
+ }
+ .footer {
+    background-size: cover;
+    background-position: top center;
+ }
 }
