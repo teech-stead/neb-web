@@ -800,7 +800,7 @@ ul {
 }
 
 .pad-ool {
-    padding: 0 242px;
+    padding: 23px 242px;
 }
 
 .rr-hd {
@@ -937,8 +937,8 @@ ul {
     padding-bottom: 10px;
 }
 .btn-secgtion{
-    padding-bottom: 200px !important;
-
+    padding-bottom: 123px !important;
+    padding-top: 39px;
 }
 
 .ttt-hd {
@@ -1041,6 +1041,7 @@ ul {
 .active {
     color: #F16E33 !important;
     border-color: #F16E33 !important;
+    text-decoration: none;
 
 }
 
@@ -1201,7 +1202,7 @@ ul {
 
 /* Benefits cards and card */
 .benefints-cards{
-    padding-top: 80px;
+   margin-top: 83px;
     
 }
 .cards-heading{
@@ -1226,13 +1227,127 @@ ul {
     top: 72px;
     padding-bottom: 50px;
 }
-.pg-bg-c-one{background-image: url(../images/pg-card-1.png)}
-.pg-bg-c-two{background-image: url(../images/pg-card-2.png)}
-.pg-bg-c-three{background-image: url(../images/pg-card-3.png);}
-.pg-bg-c-four{background-image: url(../images/pg-card-4.png);}
-.question-section{ padding-top: 80px;}
+.pg-bg-c-one{background-image: url(../images/pg-card-1.png); background-size: cover;}
+.pg-bg-c-two{background-image: url(../images/pg-card-2.png); background-size: cover;}
+.pg-bg-c-three{background-image: url(../images/pg-card-3.png); background-size: cover;}
+.pg-bg-c-four{background-image: url(../images/pg-card-4.png);background-size: cover;}
+.question-section{ margin-top: 160px;}
+.para-bold{font-weight: 600;}
+.prog-para{margin: 0 auto; text-align: center; padding: 83px 282px;}
+.p_g-para{font-size: 20px;}
+.pg-pa{padding-top: 39px;}
+.pg-bg-c-two-wr{background-image: url(../images/pinkcard.png); background-size: cover;}
 
 
+/* work-ready2 */
+.img-fluid-w-r {
+    max-width: 100%;
+    height: auto;
+    transform: translateY(-177px);
+}
+.wr-banImg {
+    padding-top: 0;
+}
+.wr-banHed {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--orng);
+ 
+}
+.pack-sec-wkrd {
+    padding: 62px 0;
+    background-image: url(../images/corner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wr-ry-para{
+    padding-top: 55px;
+    padding-right: 46px;
+}
+.wok-banpara{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+.wok-banpara2{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 10px;
+    font-style: italic;
+}
+.card-heading-section2 {
+    text-align: center;
+}
+.-top-25000 {
+    top: 50px;
+    padding-bottom: 50px;
+}
+.btn-secgtion2 {
+    padding-bottom: 55px !important;
+    padding-top: 32px;
+    display: flex;
+}
+.wr-ry-para-e{
+    
+    padding-right: 46px;
+}
+
+/* events details */
+.wok-banpara-e{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+.icon-tages{padding-right: 10px;}
+.wok-banpara-ed {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 5px;
+}
+.event-dt-trem{
+    margin-top: 39px;
+}
+.event-hd{
+    font-size: 26px;
+    font-weight: 900px;
+}
+.ev-trem-list{
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.ev-trem-list ul li{font-size: 18px;}
+.fav-heading{display: flex; justify-content: space-between; align-items: center; width: 98%;}
+.sport-sec{margin-left: 25px;}
+.fv-sp-hd{font-size: 18px; font-weight: 800;}
+.fv-sp-hd2{font-size: 34px; font-weight: 800; transform: translateY(-10px);}
+.active-fv{color: var(--orng); font-size: 16px; font-weight: 800;}
+.tex-fv-link{padding-left: 10px; font-size: 16px; font-weight: 400;}
+.tex-fv-link a{text-decoration: underline; color: black;}
+.tex-fv-link a:hover{color: var(--orng);}
+.share-sec{display: flex; gap: 10px; align-items: center;}
+.share-sp-hd{font-size: 16px; text-decoration: underline;}
+.event-card{margin-left: 63px;}
+.wr-ry-para-evt{padding-right: 147px;}
+.work-banner-evnt{padding-top: 53px;}
+.image-areas{display: flex;  align-items: center; width: 100%;    padding-top: 31px;} 
+.gm-img-1{width: 29%;background-repeat: no-repeat; background-size: cover;}
+/* .gm-img-1{width: 25%;  background-repeat: no-repeat; background-size: cover;} */
+.gm-img-3{width: 13%; display: flex; flex-direction: column; justify-content: space-between; gap: 10px;}
+/* .gm-img-1{width: 29%; background-repeat: no-repeat; background-size: cover; } */
+.ftbal-img{width: 8%;   padding-bottom: 22px;}
+.princ-img{width: 8% ;}
+
+
+.gm-img-1 img,.gm-img-3 img {
+    width: 100%;
+}
+.gm-img-1,.gm-img-3 {
+    padding: 0 5px;
+}
+.ftbal-img,.princ-img {
+    width: 100%;
+  
+}
 /* Responsive */
 
 /* System */
@@ -1350,7 +1465,7 @@ ul {
 
     }
     /* Benefits cards section */
-    .benefints-cards { padding-top: 37px; }
+    .benefints-cards { padding-top: 5px; }
     .card-text-body { height: 242px; display: flex; }
     .card-logo {
         height: 90px;
@@ -1388,57 +1503,143 @@ ul {
     .primary-nav-list li a {
         font-size: 20px;
     }
+
+    /* programmes */
+    .pad-ool {
+        padding: 23px 28px;
+    }
+    .prog-para {
+        padding: 0px 45px;
+    }
+    .card-heading-section {
+        padding-top: 1px;
+        padding-bottom: 11px;
+    }
+    .btn-secgtion {
+        padding-bottom: 47px !important;
+    }
+    .question-section {
+    margin-top: 10px;
+}
+
+
+
+/* A-W-media */
+html {
+    font-size: 8px !important;
+}
+
+.pad-lo {
+    padding: 0;
+}
+
+.pad-ool {
+    padding: 0;
+}
+
+.text-rr {
+    padding: 0;
+    padding-top: 50px;
+}
+
+.text-c-m {
+    text-align: center;
+}
+
+.pb-177 {
+    padding-bottom: 67px;
+}
+
+.pt-30-s {
+    padding-top: 30px;
+}
+
+.cover-s {
+    background-size: cover;
+}
+.box-sign-io{
+    padding: 50px 20px;
+    
+}
+.py-50-s{
+    padding: 50px 0;
+}
+.j-c-m{
+ justify-content: center;
+
+}
+/* work-ready2 UN */
+.sabHed2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--orng);
+    margin-bottom: 35px;
+}
+.work-banner2{
+    padding-top: 0;
+}
+/* work-ready-2 */
+.img-fluid-w-r {
+    transform: translateY(-80px);
+}
+.pack-sec-wkrd {
+    padding: 23px 0;
+}
+.wr-banHed {
+    font-size: 26px;
+}
+.wr-ry-para {
+    padding-top: 15px;
+}
+
+/* events section */
+.event-card {
+    margin-left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fv-sp-hd {
+    font-size: 15px;
+}
+.fv-sp-hd2 {
+    font-size: 25px;
+    transform: translateY(-3px);
+}
+.active-fv {
+    font-size: 14px;
+}
+.tex-fv-link {
+    font-size: 14px;
+}
+.image-areas {
+    padding-top: 24px;
+}
+
+
+
 }
 /* !!==tablate==!! */
 
-@media screen and (min-width:768px) and (max-width:991px) {
-    html {
-        font-size: 8px !important;
+@media (max-width:991px) {
     }
 
-    .pad-lo {
-        padding: 0;
-    }
 
-    .pad-ool {
-        padding: 0;
-    }
-
-    .text-rr {
-        padding: 0;
-        padding-top: 50px;
-    }
-
-    .text-c-m {
-        text-align: center;
-    }
-
-    .pb-177 {
-        padding-bottom: 67px;
-    }
-
-    .pt-30-s {
-        padding-top: 30px;
-    }
-
-    .cover-s {
-        background-size: cover;
-    }
-    .box-sign-io{
-        padding: 50px 20px;
-        
-    }
-    .py-50-s{
-        padding: 50px 0;
-    }
-    .j-c-m{
-     justify-content: center;
-
-    }
+@media (max-width: 1527px) {
+ .container {
+    max-width: 90% !important ;
+ }
+ .banHed {
+    font-size: calc(20px + 3vw);
+ }
+ .sabHed,.banHedMe,.footHD {
+    font-size: calc(17px + 1.6vw);
+ }
+ .footer {
+    background-size: cover;
+    background-position: top center;
+ }
 }
-
-
-
 /* mobile */
 @media (max-width:767px) {
 
@@ -1560,8 +1761,8 @@ ul {
         font-size: 12px;
     }
     .othHD {
-        font-size: 31px;
-        padding-top: 2px;
+        font-size: 21px;
+        padding-top: 50px;
     }
     .card-text-body {
         height: 170px;
@@ -1576,6 +1777,9 @@ ul {
     .btn1 {
         width: 149px;
         font-size: 13px;
+    }
+    .p_g-para {
+        font-size: 15px;
     }
 
 
@@ -1679,22 +1883,52 @@ html {
 }
 /* my css */
 
+/* work-reay-2 */
+.wr-banImg {
+   display: none;
+}
+.wr-banHed {
+    font-size: 15px;
+}
+
+/* events section */
+.sport-sec {
+    margin-left: 0px;
+    text-align: start;
+}
+.gam-img-sec{
+    display: none;
+}
+.event-card {
+    margin: 20px auto;
+}
+.wr-ry-para-evt {
+    padding-right: 0px;
+}
+.fav-heading {
+    display: block;
+}
+.share-sec {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.work-banner-evnt {
+    padding-top: 29px;
+}
+.event-dt-trem {
+    margin-top: 19px;
+}
+.event-hd {
+    font-size: 20px;
+}
+.ev-trem-list ul li {
+    font-size: 12px;
+}
+.container {
+    max-width: 100% !important;
+}
+
 }
 
 
 
-@media (max-width: 1527px) {
- .container {
-    max-width: 90% !important ;
- }
- .banHed {
-    font-size: calc(20px + 3vw);
- }
- .sabHed,.banHedMe,.footHD {
-    font-size: calc(17px + 1.6vw);
- }
- .footer {
-    background-size: cover;
-    background-position: top center;
- }
-}
