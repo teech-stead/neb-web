@@ -1,18 +1,13 @@
-@import url('../king-bird-cufonfonts-webfont/King\ Bird.woff');
-
-@font-face {
-    font-family: 'King Bird Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('King Bird Regular'), url('King Bird.woff') format('woff');
-    }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+@font-face {
+    font-family: "king bird";
+    src: url('../fonts/king-bird.woff');
+}
 
 
 html {
@@ -35,12 +30,28 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.card-ssss{
+    border-radius: 30px; 
+    width: 100%;
+    filter: drop-shadow(0px 10px 50px rgba(1, 13, 130, 0.12));
+}
 .section {
     padding-top: 86px;
 }
 .sec-wrap {
     background-color: #FEF7F4;
 }
+.accor-card.active-io .d-no{
+    display: none;
+}
+.accor-card .d-blo{
+    display: none;
+}
+.accor-card.active-io .d-blo{
+    display: block;
+}
+
+
 .card-sec {
     padding: 120px 0;
 }
@@ -1223,9 +1234,14 @@ border-radius: 30px;
 .my-100{
     margin: 100px 0;
 }
-
+.py-100{
+    padding: 100px 0;
+}
 .font-king{
-    font-family: 'King Bird Regular';
+    font-family: 'king bird';
+}
+.blue-io{
+    color: #367CF4;
 }
 .text-mm li{
     list-style: none;
@@ -1552,11 +1568,13 @@ color: #000000;
         margin-bottom: 30px;
     }
 }
-/* !!==tablate==!! */
+
 
 /* mobile */
 @media (max-width:767px) {
-
+.pt-s-15{
+    padding-top: 15px;
+}
     .mb-s-15{
         margin-bottom: 15px;
     }
