@@ -206,7 +206,7 @@ header {
     border-radius: 10px !important;
     border: none !important;
     padding: 10px !important;
-    width: 200px;
+    /* width: 200px; */
 
 }
 
@@ -1683,7 +1683,7 @@ color: #000000;
 
     html {
         font-size: 8px !important;
-
+    }
     /* programmes */
     .pad-ool {
         padding: 23px 28px;
@@ -1801,11 +1801,11 @@ html {
     .mb-m-30{
         margin-bottom: 30px;
     }
-}
 
 
 
-}
+
+
 .fv-sp-hd2 {
     font-size: 25px;
     transform: translateY(-3px);
