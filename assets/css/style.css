@@ -1,3 +1,11 @@
+@import url('../king-bird-cufonfonts-webfont/King\ Bird.woff');
+
+@font-face {
+    font-family: 'King Bird Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('King Bird Regular'), url('King Bird.woff') format('woff');
+    }
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +13,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 html {
     overflow-x: hidden;
@@ -16,7 +22,9 @@ html {
 .container {
     max-width: 1527px !important;
 }
-
+.ml-10{
+    margin-left: 10px;
+}
 
 /* my-css */
 
@@ -278,6 +286,7 @@ header {
     color: #000;
     text-decoration: none;
 }
+
 
 /* Main banner section2 or 3 */
 
@@ -731,10 +740,10 @@ header {
     width: 100px;
     border-radius: 100%;
     background-color: #fff;
-    position: absolute;
-    top: 58px;
-    right: 36%;
-    text-align: center;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50% , -50%);
 }
 
 /* !!!!!=======other-pages======!!!!!! */
@@ -832,7 +841,6 @@ ul {
 
 .text-rr {
     padding-right: 50px;
-    padding-top: 60px;
 }
 
 .pb-30 {
@@ -875,26 +883,24 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.card-img-wrap {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+.card-img-wrap{
     position: relative;
-    border-radius: 20px !important;
+}
+.card-img-wrap img {
+    border-radius: 10px 10px 0 0;
 }
 .card-text-body {
+    border-radius: 0 0 10px 10px;
     padding: 20px;
     background-color: #fff;
-    height: 270px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    border-radius: 10px;
+
 }
 
 .card-wrap {
     height: 100%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 50px !important;
+    box-shadow: rgb(152 152 156 / 35%) 0px 10px 20px 0px;
+    border-radius: 10px;
 }
 .card-heading{
     font-size: 18px;
@@ -904,6 +910,8 @@ ul {
 .card-para{
     font-size: 16px;
     color: #222222;
+    min-height: 100px;
+    line-height: 1.5;
 }
 .card-link{
     text-decoration: none;
@@ -940,6 +948,17 @@ ul {
     padding-bottom: 123px !important;
     padding-top: 39px;
 }
+.-top-100{
+    top: -100px;
+}
+.b-radius{
+border-radius: 30px;
+}
+.p-20{
+    padding: 20px;
+}
+
+
 
 .ttt-hd {
     font-style: normal;
@@ -993,8 +1012,11 @@ ul {
     background-image: url(../images/card-mem-3.png);
 }
 
-.text-ee {
-    padding: 30px;
+.text-xxx{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
 }
 
 .pt-30 {
@@ -1004,13 +1026,14 @@ ul {
 .mt-100 {
     margin-top: 100px;
 }
+.mb-100{
+    margin-bottom: 100px;
+}
 
 .sec-ee {
-    background-image: url(../images/mem-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: auto;
-
+    background-image: url(../images/bg-ww.png), url(../images/bg-xx.png);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat ; 
 }
 
 .item-e {
@@ -1198,6 +1221,85 @@ ul {
     right: 2%;
     top: 20%;
 }
+.my-100{
+    margin: 100px 0;
+}
+
+.font-king{
+    font-family: 'King Bird Regular';
+}
+.text-mm li{
+    list-style: none;
+}
+.text-dd{
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 40px 85px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+.www-hd{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.bg-dark-gray-io{
+    background-color: #E0E0E0;
+}
+.fff-icon{
+   font-size: 20px;
+    color: #F16E33;
+}
+.accor-io{
+    box-shadow: 0px 10px 50px rgba(1, 13, 130, 0.12);
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.accor-card{
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+.card-bor-top{
+    border-radius: 20px 20px 0 0;
+}
+.fff-span{
+    font-weight: 500;
+font-size: 1.8rem;
+color: #666666;
+}
+.text-ppp{
+    padding: 28px;
+    border-top: 1px solid #DDDDDD;
+    
+}
+.box-ggg{
+    border: 1px solid #DDDDDD;
+border-radius: 20px;
+width: 381px;
+}
+.bbb-hd{
+    font-weight: 500;
+font-size: 2.8rem;
+color: #000000;
+}
+.mr-14{
+    margin-right: 14px;
+}
+.-mt-135{
+    margin-top: -135px;
+}
+.ss-hd{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.d-none-io{
+    display: none;
+}
+
+
 
 
 /* Benefits cards and card */
@@ -1220,7 +1322,9 @@ ul {
 }
 .card-logo img { position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%);}
 
-
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /*programmes section */
 .-top-2500 {
@@ -1292,6 +1396,7 @@ ul {
     padding-right: 46px;
 }
 
+
 /* events details */
 .wok-banpara-e{
     font-size: 16px;
@@ -1350,6 +1455,7 @@ ul {
 
 
 
+
 /* user form card UN */
 .fm-in-para {
     font-size: 20px;
@@ -1397,6 +1503,7 @@ ul {
     padding-right: 4px;
     font-weight: 400;
 }
+
 
 
 
@@ -1520,13 +1627,10 @@ ul {
 
     }
     /* Benefits cards section */
-    .benefints-cards { padding-top: 5px; }
-    .card-text-body { height: 242px; display: flex; }
+    .benefints-cards { padding-top: 37px; }  
     .card-logo {
         height: 90px;
         width: 90px;
-        top: 32px;
-        right: 33%;
     }
     .cards-heading {
         font-size: 16px;
@@ -1559,9 +1663,15 @@ ul {
         font-size: 20px;
     }
 
+
+
+    html {
+        font-size: 8px !important;
+
     /* programmes */
     .pad-ool {
         padding: 23px 28px;
+
     }
     .prog-para {
         padding: 0px 45px;
@@ -1587,6 +1697,7 @@ html {
 .pad-lo {
     padding: 0;
 }
+
 
 .pad-ool {
     padding: 0;
@@ -1656,6 +1767,28 @@ html {
 }
 .fv-sp-hd {
     font-size: 15px;
+
+    }
+    .mt-s-50{
+        margin-top: 50px;
+    }
+    .mt-s-100{
+        margin-top: 100px;
+    }
+    .mt-m-100{
+        margin-top: 100px;
+    }
+    .box-ggg{
+        width: 381px;
+    }
+
+    .mb-m-30{
+        margin-bottom: 30px;
+    }
+}
+/* !!==tablate==!! */
+
+
 }
 .fv-sp-hd2 {
     font-size: 25px;
@@ -1691,6 +1824,7 @@ html {
     }
 
 
+
 @media (max-width: 1527px) {
  .container {
     max-width: 90% !important ;
@@ -1706,9 +1840,32 @@ html {
     background-position: top center;
  }
 }
+
+@media (max-width: 1527px) {
+ .container {
+    max-width: 90% !important ;
+ }
+ .banHed {
+    font-size: calc(20px + 3vw);
+ }
+ .sabHed,.banHedMe,.footHD {
+    font-size: calc(17px + 1.6vw);
+ }
+ .footer {
+    background-size: cover;
+    background-position: top center;
+ }
+ .top-0-io{
+    top: 0;
+ }
+}
+
 /* mobile */
 @media (max-width:767px) {
 
+    .mb-s-15{
+        margin-bottom: 15px;
+    }
     .textArea {
         text-align: start;
         padding-top: 30px;
@@ -1736,7 +1893,7 @@ html {
     }
 
     .btn1 {
-        width: 125px;
+        padding: 13px 23px;
         font-size: 13px;
     }
 
@@ -1830,9 +1987,7 @@ html {
         font-size: 21px;
         padding-top: 50px;
     }
-    .card-text-body {
-        height: 170px;
-    }
+   
     .qus-para {
         font-size: 10px;
     }
@@ -1854,16 +2009,20 @@ html {
 html {
     font-size: 7px !important;
 }
-
+.p-s-40{
+    padding: 40px;
+}
+.mt-s-50{
+    margin-top: 50px;
+}
 .pad-lo {
     padding: 0;
 }
-
-.pad-ool {
-    padding: 0;
+.box-ggg{
+    width: auto;
 }
 
-.text-rr {
+.pad-ool {
     padding: 0;
 }
 
@@ -1904,6 +2063,9 @@ html {
 .top-s-0 {
     top: 0;
 }
+.top-s-35{
+    top: 35px;
+}
 
 .col-revers {
     flex-direction: column-reverse;
@@ -1920,6 +2082,9 @@ html {
 .input-ff{
     min-height: 40px;
    height: auto;
+}
+.py-s-30{
+    padding: 30px 0;
 }
 
 
@@ -2007,6 +2172,7 @@ html {
 
 
 }
+
 
 
 
