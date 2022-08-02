@@ -8,11 +8,32 @@
     font-family: "king bird";
     src: url('../fonts/king-bird.woff');
 }
-
+[class^="tab-"] {
+    display: none;
+}
+[class^="tab-"].active {
+    display: block;
+}
 
 html {
     overflow-x: hidden;
 }
+.tabs-btn-io{
+  border: none;
+  background-color: transparent;
+  font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    
+}
+
+.ool-para {
+    display: none;
+}
+.bor-b-solid{
+    border-bottom: 1px solid rgba(0,0,0,.125);;
+}
+
 
 .container {
     max-width: 1527px !important;
@@ -41,15 +62,19 @@ html {
 .sec-wrap {
     background-color: #FEF7F4;
 }
-.accor-card.active-io .d-no{
+.accor-zz.active-io .d-no{
     display: none;
 }
-.accor-card .d-blo{
+.accor-zz .d-blo{
     display: none;
 }
-.accor-card.active-io .d-blo{
+.accor-zz.active-io .d-blo{
     display: block;
 }
+.tabs-btn-io:focus{
+outline: none;
+}
+
 
 
 .card-sec {
@@ -125,14 +150,7 @@ html {
 }
 
 /* header sec */
-header {
-    /* width: 100%;
-    height: 95px;
-    border-bottom: .50px solid rgb(226, 226, 226) !important;
-    position: absolute;
-    top: 0;
-    background: #fffffffa; */
-}
+
 .header {
     border-bottom: .50px solid rgb(226, 226, 226);
     padding: 10px 0;
@@ -914,8 +932,8 @@ ul {
     border-radius: 10px;
 }
 .card-heading{
-    font-size: 18px;
-    font-weight: 500px;
+    font-size: 1.8rem;
+    font-weight: 500;
     color: var(--orng);
 }
 .card-para{
@@ -923,6 +941,10 @@ ul {
     color: #222222;
     min-height: 100px;
     line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
 }
 .card-link{
     text-decoration: none;
@@ -1353,11 +1375,13 @@ color: #000000;
 .pg-bg-c-four{background-image: url(../images/pg-card-4.png);background-size: cover;}
 .question-section{ margin-top: 160px;}
 .para-bold{font-weight: 600;}
-.prog-para{margin: 0 auto; text-align: center; padding: 83px 282px;}
+.prog-para{ text-align: center; }
 .p_g-para{font-size: 20px;}
 .pg-pa{padding-top: 39px;}
 .pg-bg-c-two-wr{background-image: url(../images/pinkcard.png); background-size: cover;}
-
+.p-50{
+    padding: 50px;
+}
 
 /* work-ready2 */
 .img-fluid-w-r {
@@ -1683,7 +1707,7 @@ color: #000000;
 
     html {
         font-size: 8px !important;
-
+    }
     /* programmes */
     .pad-ool {
         padding: 23px 28px;
@@ -1785,14 +1809,15 @@ html {
     font-size: 15px;
 
     }
-    .mt-s-50{
-        margin-top: 50px;
-    }
+   
     .mt-s-100{
         margin-top: 100px;
     }
     .mt-m-100{
         margin-top: 100px;
+    }
+    .mt-m-50{
+        margin-top: 50px;
     }
     .box-ggg{
         width: 381px;
@@ -1801,11 +1826,7 @@ html {
     .mb-m-30{
         margin-bottom: 30px;
     }
-}
 
-
-
-}
 .fv-sp-hd2 {
     font-size: 25px;
     transform: translateY(-3px);
@@ -1841,21 +1862,6 @@ html {
 
 
 
-@media (max-width: 1527px) {
- .container {
-    max-width: 90% !important ;
- }
- .banHed {
-    font-size: calc(20px + 3vw);
- }
- .sabHed,.banHedMe,.footHD {
-    font-size: calc(17px + 1.6vw);
- }
- .footer {
-    background-size: cover;
-    background-position: top center;
- }
-}
 
 @media (max-width: 1527px) {
  .container {
@@ -1874,12 +1880,21 @@ html {
  .top-0-io{
     top: 0;
  }
+ .mt-l-100{
+    margin-top: 100px;
+ }
+ .box-ggg{
+    width: 280px;
+ }
 }
 
 /* mobile */
 @media (max-width:767px) {
 .pt-s-15{
     padding-top: 15px;
+}
+.mt-s-0{
+    margin-top: 0px;
 }
     .mb-s-15{
         margin-bottom: 15px;
@@ -2037,7 +2052,7 @@ html {
     padding: 0;
 }
 .box-ggg{
-    width: auto;
+    width: 381px;
 }
 
 .pad-ool {
