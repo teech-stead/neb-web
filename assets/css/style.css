@@ -114,7 +114,7 @@ html {
 /* my-css */
 
 .hero-banner {
-    padding-top: 250px;
+    padding-top: 127px;
     background-image: url(../images/hero-banner.png);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ html {
 }
 
 .section {
-    padding-top: 86px;
+    padding-top: 70px;
 }
 
 .sec-wrap {
@@ -226,7 +226,7 @@ html {
 }
 
 .pack-sec {
-    padding: 110px 0;
+    padding: 114px 0;
     background-image: url('../images/corner-bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -439,14 +439,24 @@ html {
     font-size: 50px;
     font-weight: 700;
     color: var(--orng);
-    margin-bottom: 35px;
+    margin-bottom: 39px;
 }
 
 .sabPara {
     font-size: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 39px;
     line-height: 1.5;
     /* font-weight: 700; */
+    padding-right: 48px;
+}
+
+
+.sabPara2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    padding: 0 205px;
+
 }
 
 .textArea3 {
@@ -559,11 +569,13 @@ html {
 .pakages {
     min-height: 610px;
     width: 100%;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     border-radius: 20px;
     padding: 35px 35px 50px;
     transition: all 0.3s;
-
+    box-shadow: -1px 3px 20px -10px rgba(0,0,0,0.83);
+    -webkit-box-shadow: -1px 3px 20px -10px rgba(0,0,0,0.83);
+    -moz-box-shadow: -1px 3px 20px -10px rgba(0,0,0,0.83);
 }
 
 .pakagHead {
@@ -1887,9 +1899,18 @@ ul {
     font-weight: 400;
 }
 
-
-
-
+/* unair new css */
+.paraggrap{
+    padding-top: 39px;
+}
+.bannn3para{
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -2238,6 +2259,21 @@ ul {
         font-size: 16px;
     }
 
+    /* unair */
+    .hero-banner {
+        padding-top: 60px;
+    }
+    .section {
+        padding-top: 50px;
+    }
+    .card-sec {
+        padding: 40px 0;
+    }
+    /* .bannn3para {
+        font-size: 10px;
+        transform: translateY(-28px);
+        padding-left: 90px;
+    } */
 
 }
 
@@ -2319,8 +2355,9 @@ ul {
 
     .sabPara {
         font-size: 13px;
+        
     }
-
+    
     .btn1 {
         padding: 13px 23px;
         font-size: 13px;
@@ -2641,5 +2678,15 @@ ul {
         padding-bottom: 14px;
     }
 
+    /* unair */
+    /* .bannn3para {
+        font-size: 10px;
+        transform: translateY(-42px);
+        padding-left: 260px;
+    } */
+    .sbpara3{text-align: start;}
+    .sabPara2 {
+        padding: 0 0px;
+    }
 
 }
