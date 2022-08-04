@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-2 col-6">
-                    <a href="#">
+                    <a href="./index.html">
                         <img src="./assets/images/logo-main.png" alt="">
                     </a>
                 </div>
@@ -41,7 +41,7 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-expanded="false">
-                                          MemberShip
+                                          Membership
                                         </a>
                                         <div class="dropdown-menu">
                                           <a class="dropdown-item" href="./membership.html">Membership</a>
@@ -76,7 +76,7 @@
                                         </div>
                                       </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a href="#">Blogs</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -90,12 +90,19 @@
                                       </li>
                                 </ul>
                             </nav>
+                            <button class="normal-btn menu-toggler-btn cross-btn" >
+                                <i class="fa-solid fa-xmark menuTag"></i>
+                            </button>
                         </div>
                         <div class="searchBar">
                             <div class="icons">
-                                <i class="fa-solid fa-magnifying-glass serch"></i>
+                                <button class="normal-btn" id="menu-toggler">
+                                  <i class="fa-solid fa-magnifying-glass serch"></i>
+                                </button>
                                 <div class="menuTagPer">
-                                    <i class="fa-solid fa-bars menuTag"></i>
+                                    <button class="normal-btn menu-toggler-btn" >
+                                        <i class="fa-solid fa-bars menuTag"></i>
+                                    </button>
                                      <i class="fa-solid fa-circle-user userTag"></i>
                                 </div>
                             </div>
@@ -104,8 +111,21 @@
                 </div>
             </div>
         </div>
-
-     </header>
+    </header>
+    <div class="search-wrap">
+     <div class="container">
+         <div class="row">
+            <div class="col-12">
+                <form action="#">
+                    <div class="form-group-wrap">
+                        <input type="text" class="search-input" placeholder="What are you looking for?">
+                        <button class="btn1" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+         </div>
+     </div>
+    </div>
 
     
 
@@ -935,9 +955,10 @@
      </footer>
 
 
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/index.js"></script>
+     <script src="./assets/js/jquery.js"></script>
+     <script src="./assets/js/vendor.js"></script>
+     <script src="./assets/js/bootstrap.min.js"></script>
+     <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
