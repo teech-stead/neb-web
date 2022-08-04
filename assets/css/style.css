@@ -231,7 +231,47 @@ html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
+.search-wrap {
+    padding: 20px 0;
+    background-color: #F16E33;
+    display: none;
+}
+.form-group-wrap {
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    flex-grow: 1;
+    background-color: transparent;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+}
+.search-input::placeholder {
+    color: #ffffff;
+}
+input:focus {
+    outline: none;
+}
+.normal-btn {
+    border: 0;
+    background-color: transparent;
+    color: #F16E33;
+}
+.cross-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+}
+.primary-nav-list > li > a:hover {
+    color: #F16E33;
+    text-decoration: none;
+}
+.dropdown-item.active {
+    background-color: transparent !important;
+}
 /* my-css */
 
 
@@ -1897,6 +1937,21 @@ ul {
 
 /* System */
 @media (max-width:1024px) {
+
+    /* my css */
+    .icons {
+        gap: 15px;
+    }
+    .cross-btn {
+        display: block;
+    }
+    .dropdown-menu {
+        position: relative !important;
+        float: unset !important; 
+        margin-bottom: 20px !important;
+        transform: translate3d(0, 0, 0px) !important;
+    }
+    /* my css */
     .banHed {
         font-size: 49px;
     }
@@ -2051,6 +2106,10 @@ ul {
         z-index: 5;
         background-color: #fff;
         transform: translateX(100%);
+        transition: all 0.4s ease-in-out;
+    }
+    .primary-nav.active {
+        transform: translateX(0);
     }
 
     .primary-nav-list {
@@ -2283,6 +2342,11 @@ ul {
 
 /* mobile */
 @media (max-width:767px) {
+    /* my css */
+    body {
+        overflow-x: hidden;
+    }
+    /* my css */
     .pt-s-15 {
         padding-top: 15px;
     }
@@ -2429,7 +2493,6 @@ ul {
 
     /* benefites cards */
     .btn1 {
-        width: 149px;
         font-size: 13px;
     }
 
