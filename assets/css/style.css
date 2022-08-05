@@ -1968,7 +1968,28 @@ color: #FFFFFF;
     left: 50%;
     transform: translateX(-50%);
 }
+.steps-forms-wr{padding: 0 40px}
 
+.form-inn-para{font-size: 20px; padding-top: 10px; padding-bottom: 8px; padding-right: 20px; padding-left: 10px;}
+.input-ff2 {
+    background-color: white;
+    height: auto;
+    border: 1px solid rgba(34, 34, 34, 0.7);
+    border-radius: 4px;
+    padding: 20px 0; 
+}
+.wr-btn-n{width: 30%;}
+.form-inn-para2{font-size: 20px; padding-right: 30px;}
+.buttm-sp{padding:163px 0;}
+.mt-l-100{padding-bottom: 137px;}
+
+.input-ff2-s {
+    background-color: white;
+    height: auto;
+    border: 1px solid rgba(34, 34, 34, 0.7);
+    border-radius: 4px;
+    padding: 0px 0;
+}
 
 
 /* Responsive */
@@ -2345,13 +2366,27 @@ color: #FFFFFF;
     .card-sec {
         padding: 40px 0;
     }
-    
+
     /* .bannn3para {
         font-size: 10px;
         transform: translateY(-28px);
         padding-left: 90px;
     } */
-
+    .form-inn-para2 {
+        font-size: 16px;
+        /* padding-right: 42px; */
+    }
+    .form-inn-para {
+        font-size: 16px;
+        padding-top: 36px;
+        padding-bottom: 27px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+    .buttm-sp{padding:63px 0;}
+    .mt-l-100 {
+        padding-bottom: 105px;
+    }
 }
 
 /* !!==tablate==!! */
@@ -2759,6 +2794,19 @@ color: #FFFFFF;
     .sbpara3{text-align: start;}
     .sabPara2 {
         padding: 0 0px;
+        
     }
 
+    .form-inn-para {
+        font-size: 9.5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-right: 2px;
+        padding-left: 4px;
+    }
+    .pack-sec {
+        padding: 0px 0;
+    }
+    .buttm-sp{padding:55px 0;}
+    .mt-l-100{padding-bottom: 70px;}
 }
