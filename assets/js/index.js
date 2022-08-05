@@ -45,8 +45,9 @@ $('.slider').slick({
     $("." + target).siblings('[class^="tab-"]').removeClass("active");
 });
   $(".accor-zz").on("click", function(e) {
-    $('.accor-zz').removeClass('active-io');
-    $(this).addClass('active-io');
+    // $('.accor-zz').removeClass('active-io');
+    $(this).toggleClass('active-io');
+    $(this).parent('.accor-card').siblings('.accor-card').find('.accor-zz').removeClass('active-io');
     $(this).siblings('div').find('.accor-vv').slideToggle();
     $('.accor-zz:not(.active-io)').siblings('div').find('.accor-vv').slideUp();
     console.log("yes")
@@ -57,8 +58,8 @@ let step = 0
 let stepForms = document.querySelectorAll('.stp-form')
 let stepBtns = document.querySelectorAll('.box-yy')
 $("[data-step]").on("click", function(e) {
-  $("[data-step]").removeClass("active");
-  $(this).addClass("active");
+  $("[data-step]").removeClass("active-zz");
+  $(this).addClass("active-zz");
   let stpUpdate = $(this).data("stepnum");
   let target = $(this).data("step");
   step = stpUpdate - 1
@@ -74,10 +75,10 @@ $(".next").on("click", function(e) {
     f.classList.remove('show-form')
   })
   stepBtns.forEach(bt => {
-    bt.classList.remove('active')
+    bt.classList.remove('active-zz')
   })
  stepForms[step].classList.add('show-form')
- stepBtns[step].classList.add('active')
+ stepBtns[step].classList.add('active-zz')
  stepBtns[step].removeAttribute('disabled', 'true')
  console.log('working')
 });
